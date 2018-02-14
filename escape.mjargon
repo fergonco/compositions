@@ -1,0 +1,58 @@
+voices                       | acoustic_bass                | distorted_guitar                        | drums "rhythm"               | drums "right"
+tempo 180                    |                              |                                         |                              |
+intro:                       | C4 D C F C D C on [xxxx.xxx] |                                         |                              |
+                             | D E D C A G on [xxxxx.x.]    |                                         |                              |
+                             | C4 D C F C D C on [xxxx.xxx] |                                         |                              |
+                             | G3 A G D E D on [xxx.xxx.]   |                                         |                              |
+repeat intro 1               |                              |                                         |                              |
+dynamics                     |                              | p                                       |                              |
+intro_drums:                 | like intro                   | F3maj on [x]                            | bd sn on [xxxx]              | hho on [xxxx]
+                             | +                            | G3maj on [x]                            | %                            | %
+                             | +                            | F3maj on [x]                            | %                            | %
+                             | +                            | G3maj on [x]                            | %                            | %
+repeat intro_drums 1         |                              |                                         |                              |
+tijera:                      | C4 D C F on [xxxx....]       | chordNotes(Fmaj, 1, 2, 3) on [xxxxxxxx] | bd sn bd bd sn on [x.x.xxx.] | %
+                             | _ on [x]                     | chordNotes(Fmaj, 1, 2, 3) on [xxxxxxxx] | bd bd sn on [xxx.xxx.]       | %
+                             | C4 D C A on [xxxx....]       | chordNotes(Amaj, 1, 2, 3) on [xxxxxxxx] | like tijera                  | %
+                             | _ on [x]                     | chordNotes(Amaj, 1, 2, 3) on [xxxxxxxx] | +                            | %
+repeat tijera 1              |                              |                                         |                              |
+saltos:                      | C D F on [x..x..x.]          | F3maj on [x]                            | bd sn on [xxxx]              | hho on [xxxx]
+                             | G F G on [x..x..x.]          | G3maj on [x]                            | %                            | %
+                             | A G A on [x..x..x.]          | F3maj on [x]                            | %                            | %
+                             | C5 A4 on [x..x....]          | G3maj on [x]                            | %                            | %
+                             | like saltos                  |                                         | bd sn on [xxxx]              | hho on [xxxx]
+                             | +                            |                                         | %                            | %
+                             | like intro + 3               |                                         | %                            | %
+repeat saltos 1              |                              |                                         |
+solo:                        | like saltos                  | F G F on [x..x.x.]                      | %                            | %
+                             | +                            | D on [x]                                | %                            | %
+                             | +                            | F G F  on [x..x.x.]                     | %                            | %
+                             | +                            | C on [x]                                | %                            | %
+                             | like saltos                  | A on [x]                                | %                            | %
+                             | +                            | B on [x]                                | %                            | %
+                             | +                            | C5 on [x]                               | %                            | %
+                             | +                            | _ on [x]                                | %                            | %
+foo:                         | like saltos                  | C5 F A on [xxxxxxxx]                    | %                            | %
+                             | +                            | D5 G B on [xxxxxxxx]                    | %                            | %
+                             | +                            | E5 A C6 A5 C6 A5 E A on [xxxxxxxx]      | %                            | %
+                             | +                            | %                                       | %                            | %
+repeat foo 4                 |                              |                                         |                              |
+jam:                         | like saltos                  |                                         | %                            | %
+                             | +                            |                                         | %                            | %
+                             | +                            |                                         | %                            | %
+                             | +                            |                                         | %                            | %
+repeat jam 1000              |                              |                                         |                              |
+                             | C4 D C F C D C on [xxxx.xxx] |                                         | %                            | %
+                             | D E D C A G on [xxxxx.x.]    |                                         | %                            | %
+                             | C4 D C F C D C on [xxxx.xxx] |                                         | %                            | %
+                             | G3 A G D E D on [xxx.xxx.]   |                                         | %                            | %
+                             | C D F on [x..x..x.]          | F3maj on [x]                            | %                            | %
+                             | G F G on [x..x..x.]          | G3maj on [x]                            | %                            | %
+                             | A G A on [x..x..x.]          | F3maj on [x]                            | %                            | %
+                             | C5 A4 on [x..x....]          | G3maj on [x]                            | %                            | %
+test:                        |                              | F3maj on [x]                            | %                            | %
+                             |                              | G3maj on [x]                            | %                            | %
+                             |                              | F3maj on [x]                            | %                            | %
+                             |                              | G3maj on [x]                            | %                            | %
+                             |                              | A3maj on [x]                            | %                            | %
+repeat test 40               |                              |                                         |                              |
